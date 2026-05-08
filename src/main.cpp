@@ -22,8 +22,8 @@ void MyEventHandler::onPreInit(nc::AppConfiguration &config)
 	#endif
 #endif
 
-	config.windowTitle = "ncTemplate";
-	config.windowIconFilename = "icon48.png";
+	config.window.title = "ncTemplate";
+	config.window.iconFilename = "icon48.png";
 }
 
 void MyEventHandler::onKeyReleased(const nc::KeyboardEvent &event)
